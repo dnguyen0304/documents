@@ -28,6 +28,8 @@ Developers must be able to...
   are hard-coded.
 """
 
+from nose.tools import assert_equal, assert_false, assert_true, raises
+
 
 class Students(object):
 
